@@ -1,0 +1,25 @@
+- before runing the project you should download postgres database
+	-create new user and password 
+	-create database with name tasks as per application.properties file
+	- link for postgres :https://sbp.enterprisedb.com/getfile.jsp?fileid=1258895
+
+- project runing on java 17 
+
+- I'm using the local server for caching for testing purpose but it isn't a recomanded way for production
+  it should be caching server like (redis).
+
+- this is google account for testing purpose:
+	email : testusert835@gmail.com
+	password : testtest_22
+  You can open this account to check the created events, and if you 
+  want to use a different account, you should contact me.
+
+- There are credentials and token files for authentication.
+  You must not change them.
+
+- I didn't create the test folder, because there is a better way 
+ to check my APIs and to test them Manually when running the code.
+  
+  you can use this link from post man to check my APIs:
+
+	https://documenter.getpostman.com/view/25062591/2sA3Bn5Xrr
